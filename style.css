@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #adadad;
+}
+
+.header {
+    background-color: #1f2937;
+    margin: 0px;
+    padding: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight:700;
+    padding:  8px 24px;
+    display: flex;
+    align-items: center;
+
+}
+
+.headlinks {
+    font-size: 18px;
+    color: #adadad;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;  
+    padding: 8px 24px;
+    
+}
+
+.section1 {
+    background-color: #1f2937;
+    margin: 0px;
+    padding: 120px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+.herosection {
+    display: flex;
+}
+
+.herotext {
+    display: flex;
+    flex-wrap: wrap;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+
+.secondarytext {
+    font-size: 18px;
+    color: #adadad;
+    margin-bottom: 12px;
+}
+
+.left {
+    padding-left: 24px;
+    padding-right: 182px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+button {
+    color: #f9faf8;
+    font-weight: 700;
+    padding: 8px 24px;
+    margin: 12px 0px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #3882f6;
+}
+
+.right {
+    display: flex;
+    flex-shrink: .5;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+/* INFO SECTION */
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px 120px;
+}
+
+h1 {
+    text-align: center;
+    color: #1f2937;
+    font-family: 900;
+    font-size: 36px;
+    margin: 60px;
+}
+
+.infopics {
+    margin: 0px 60px 101px 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.infopic1 {
+
+    text-align: center;
+    
+}
+
+.smimg {
+    width: 75%;
+    height: auto;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #3882f6;
+}
+
+/* Info */
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 50;
+    font-style: italic;
+    color: #1f2937;
+
+    padding: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ghandi {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Brentify */
+
+.action {
+    display: flex;
+    background-color: #3882f6;
+    margin: 90px 144px;
+    padding: 28px 120px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actionhead {
+    font-weight: 700;
+    color:#f9faf8;
+}
+
+.actiontext {
+    color: #e5e7eb;
+}
+
+.actionbutton {
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #f9faf8;   
+}
+
+/* Footer*/
+
+.footer {
+    background-color: #1f2937;
+    color: #adadad;
+    margin: 0px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+}
